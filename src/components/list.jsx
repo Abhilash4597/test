@@ -161,7 +161,7 @@ export default function List() {
 
   const [search, setSearch] = useState('');
 
-  console.log(data.filter(user => user.title.toLowerCase().includes('k')));
+  // console.log(data.filter(user => user.title.toLowerCase().includes('k')));
 
   return (
     <>
@@ -183,7 +183,7 @@ export default function List() {
         </div>
       </div>
       <div className="main-img-container">
-        {data.map(item => {
+        {data.filter(data=>data.title.toLowerCase().includes(search)).map(item => {
           return (
             <div className="img-container" key={item.id}>
               <img src={item.img} alt="image 1" className="img" />
