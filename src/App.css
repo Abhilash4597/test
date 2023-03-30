@@ -84,6 +84,7 @@ body {
 
 .img-container {
   width: 30%;
+  /* height: 350px; */
   cursor: pointer;
   border-radius: 20px;
   padding: 1rem;
