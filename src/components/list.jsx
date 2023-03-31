@@ -140,6 +140,31 @@ export default function List() {
       img: 'https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519__340.jpg',
       title: 'african lion wild cat',
     },
+    {
+      id: 26,
+      img: 'https://cdn.pixabay.com/photo/2014/11/03/17/40/leopard-515509__340.jpg',
+      title: 'leopard safari mammal',
+    },
+    {
+      id: 27,
+      img: 'https://cdn.pixabay.com/photo/2015/10/12/15/46/animal-984573__340.jpg',
+      title: 'mammal fallow deer stag',
+    },
+    {
+      id: 28,
+      img: 'https://cdn.pixabay.com/photo/2018/01/22/14/13/animal-3099035__340.jpg',
+      title: 'horses fauna nature',
+    },
+    {
+      id: 29,
+      img: 'https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777__340.jpg',
+      title: 'elephant black-and-white',
+    },
+    {
+      id: 30,
+      img: 'https://cdn.pixabay.com/photo/2016/08/14/17/04/ladybugs-1593406__340.jpg',
+      title: 'ladybugs insects pair',
+    },
   ];
 
   const [search, setSearch] = useState('');
