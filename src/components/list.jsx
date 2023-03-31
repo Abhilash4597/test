@@ -17,145 +17,128 @@ export default function List() {
   const data = [
     {
       id: 1,
-      img: 'https://media.istockphoto.com/id/1430842114/photo/best-friends.jpg?b=1&s=170667a&w=0&k=20&c=kG5Vr8aDc9KZUMSISMIus6HxWJQx7rQYttGPJ2CbvkU=',
-      title: 'Dog lives are too short. Their only fault, really.',
+      img: 'https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636__340.jpg',
+      title: 'elephant trunk tusks',
     },
     {
       id: 2,
-      img: 'https://media.istockphoto.com/id/1367150296/photo/happy-young-african-american-man-petting-his-dog-outdoors-in-nature.jpg?b=1&s=170667a&w=0&k=20&c=yLiBCLy3VLpPjGm_Rn3N2g9FDwj1osQhV8u97b6E-do=',
-      title:
-        'A dog is the only thing that can mend a crack in your broken heart.',
+      img: 'https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267__340.jpg',
+      title: 'owl ,bird of prey.',
     },
     {
       id: 3,
-      img: 'https://media.istockphoto.com/id/1349321709/photo/full-length-shot-of-an-adorable-dog-lying-on-the-sofa-at-home.jpg?b=1&s=170667a&w=0&k=20&c=QNW8aqRyNqrKDxmWPgA29775-lML_lJOH5YYl9vGBxk=',
-      title: 'The average dog is a nicer person than the average person.',
+      img: 'https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445__340.jpg',
+      title: 'iceland arctic fox',
     },
     {
       id: 4,
-      img: 'https://media.istockphoto.com/id/1349321709/photo/full-length-shot-of-an-adorable-dog-lying-on-the-sofa-at-home.jpg?b=1&s=170667a&w=0&k=20&c=QNW8aqRyNqrKDxmWPgA29775-lML_lJOH5YYl9vGBxk=',
-      title: 'The dog is a gentleman; I hope to go to his heaven not mans.',
+      img: 'https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194__340.jpg',
+      title: 'parrot yellow macaw',
     },
     {
       id: 5,
-      img: 'https://media.istockphoto.com/id/1430187772/photo/alert-border-collie-and-obedience-training.jpg?b=1&s=170667a&w=0&k=20&c=DFD4NDeLTa0v2P7Bsr6sRuGJohnLb7HmRib8lt7crIs=',
-      title: 'Be the person your dog thinks you are.',
+      img: 'https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512__340.jpg',
+      title: 'fox sleeping resting',
     },
     {
       id: 6,
-      img: 'https://media.istockphoto.com/id/1415809177/photo/boxer-puppy-relaxing-on-the-sofa.jpg?b=1&s=170667a&w=0&k=20&c=gNth1Bxjwy1U0Szj5yYNuTMgFNju_TasS7o7mRoMR5A=',
-      title:
-        'If a man aspires towards a righteous life, his first act of abstinence is from injury to animals.',
+      img: 'https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830__340.jpg',
+      title: 'flowers butterfly',
     },
     {
       id: 7,
-      img: 'https://media.istockphoto.com/id/1398466630/photo/bearded-man-comfortably-sitting-on-a-coach-reading-a-book-and-holding-his-dog.jpg?b=1&s=170667a&w=0&k=20&c=KBTKXgPcQybX3-4JOxLIaFrgaiP_TKhiAOeRqLzOVpw=',
-      title:
-        'If I could be half the person my dog is, I d be twice the human I am.',
+      img: 'https://cdn.pixabay.com/photo/2017/05/08/13/15/bird-2295431__340.jpg',
+      title: 'bird branch perched',
     },
     {
       id: 8,
-      img: 'https://media.istockphoto.com/id/1410966682/photo/four-dogs-in-the-forest.jpg?b=1&s=170667a&w=0&k=20&c=b0rENjSTTS7sOlYIzGYGNBPIJgRmefgKoi4SQwwY3cQ=',
-      title: 'Dogs leave pawprints on our hearts.',
+      img: 'https://cdn.pixabay.com/photo/2016/01/02/16/53/lion-1118467__340.jpg',
+      title: 'lion head face mane',
     },
     {
       id: 9,
-      img: 'https://images.unsplash.com/photo-1545218553-cdb549f13f8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title:
-        'No one appreciates the very special genius of your conversation as a dog does.',
+      img: 'https://cdn.pixabay.com/photo/2017/05/31/18/38/sea-2361247__340.jpg',
+      title: 'sea turtle diving',
     },
     {
       id: 10,
-      img: 'https://media.istockphoto.com/id/1408603697/photo/cute-smart-funny-puppy-dog-border-collie-holding-toothbrush-in-mouth-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=v3ChCkiIRp4-dXkO5rJhaaa_Lt148R_FR0mNSzxrubc=',
-      title:
-        'Does not the gratitude of the dog put to shame any man who is ungrateful to his benefactors?',
+      img: 'https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492__340.jpg',
+      title: 'cat young animal kitten',
     },
     {
       id: 11,
-      img: 'https://media.istockphoto.com/id/1445008380/photo/the-veterinarian-doctor-treating-checking-on-dog-at-vet-clinic.jpg?b=1&s=170667a&w=0&k=20&c=PMHt4LS_6aMZfzmcOYVJb9tkGjrrIGq59d-jQO4Kuas=',
-      title: 'Even the tiniest Poodle or Chihuahua is still a wolf at heart.',
+      img: 'https://cdn.pixabay.com/photo/2017/07/18/18/24/dove-2516641__340.jpg',
+      title: 'dove bird flight wings.',
     },
     {
       id: 12,
-      img: 'https://media.istockphoto.com/id/1435010849/photo/labrador-retriever-dog-panting-and-ginger-cat-sitting-in-front-of-dark-yellow-background.jpg?b=1&s=170667a&w=0&k=20&c=Rr2nJh68FjKPZKvB6VPwnCHT4QEOZR9g_Xh7OxbMIcc=',
-      title:
-        'The old saw about old dogs and new tricks only applies to certain people.',
+      img: 'https://cdn.pixabay.com/photo/2013/11/01/11/13/dolphin-203875__340.jpg',
+      title: 'dolphin sea ocean',
     },
     {
       id: 13,
-      img: 'https://media.istockphoto.com/id/1435010849/photo/labrador-retriever-dog-panting-and-ginger-cat-sitting-in-front-of-dark-yellow-background.jpg?b=1&s=170667a&w=0&k=20&c=Rr2nJh68FjKPZKvB6VPwnCHT4QEOZR9g_Xh7OxbMIcc=',
-      title:
-        'Outside of a dog, a book is a mans best friend. Inside of a dog its too dark to read.',
+      img: 'https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453__340.jpg',
+      title: 'kingfisher bird',
     },
     {
       id: 14,
-      img: 'https://media.istockphoto.com/id/1366305001/photo/a-dog-in-a-bunny-costume-sitting-on-a-pink-background-golden-retriever-celebrating-easter-and.jpg?b=1&s=170667a&w=0&k=20&c=und11hpyMyUEsDFn77MsCpCf--YAeBhIN0YCNmELmdc=',
-      title:
-        'Before you get a dog, you can’t quite imagine what living with one might be like; afterward, you can’t imagine living any other way.',
+      img: 'https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954__340.jpg',
+      title: 'bird fluttering berries',
     },
     {
       id: 15,
-      img: 'https://media.istockphoto.com/id/1387718984/photo/dachshund-dog-riding-in-car-and-looking-out-from-car-window-happy-dog-enjoying-life-dog.jpg?b=1&s=170667a&w=0&k=20&c=JKPWeo0O5HC0kQTHC3Ux_PEG3K64oT-AcLg6TP5pMFQ=',
-      title:
-        'Having a dog will bless you with many of the happiest days of your life, and one of the worst.',
+      img: 'https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658__340.jpg',
+      title: 'fox wildlife red fox',
     },
     {
       id: 16,
-      img: 'https://media.istockphoto.com/id/1402891368/photo/dachshund-wearing-a-blue-dog-collar-standing-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=epqGpql0Lb2SZ_pEEMj8hdtD44Y68UEGiS4oizyFx8c=',
-      title:
-        'No animal I know of can consistently be more of a friend and companion than a dog.',
+      img: 'https://cdn.pixabay.com/photo/2015/04/10/01/41/fox-715588__340.jpg',
+      title: 'fox nature animals',
     },
     {
       id: 17,
-      img: 'https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title:
-        'Once you have had a wonderful dog, a life without one is a life diminished.',
+      img: 'https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg',
+      title: 'cat portrait',
     },
     {
       id: 18,
-      img: 'https://images.unsplash.com/photo-1598875706250-21faaf804361?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title:
-        'The dog was created specially for children. He is the god of frolic.',
+      img: 'https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__340.jpg',
+      title: 'lion roar africa',
     },
     {
       id: 19,
-      img: 'https://images.unsplash.com/photo-1608096299210-db7e38487075?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title: 'Home is where the dog runs to greet you.',
+      img: 'https://cdn.pixabay.com/photo/2017/05/08/13/15/bird-2295436__340.jpg',
+      title: 'bird robin spring',
     },
     {
       id: 20,
-      img: 'https://images.unsplash.com/photo-1572566830488-069bcc7fbcec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      title:
-        'You think dogs will not be in heaven? I tell you; they will be there long before any of us.',
+      img: 'https://cdn.pixabay.com/photo/2014/10/01/10/44/animal-468228__340.jpg',
+      title: 'hedgehog pet mammal',
     },
     {
       id: 21,
-      img: 'https://images.unsplash.com/photo-1605197161470-d0261cac6767?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      title:
-        'A dog can snap you out of any kind of bad mood that you re in faster than you can think of.',
+      img: 'https://cdn.pixabay.com/photo/2017/02/28/23/00/swan-2107052__340.jpg',
+      title: 'swan water white',
     },
     {
       id: 22,
-      img: 'https://images.unsplash.com/photo-1514373941175-0a141072bbc8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      title:
-        'The bond with a true dog is as lasting as the ties of this earth will ever be.',
+      img: 'https://cdn.pixabay.com/photo/2017/06/07/10/47/elephant-2380009__340.jpg',
+      title: 'Playing Elephant',
     },
     {
       id: 23,
-      img: 'https://images.unsplash.com/photo-1537123547273-e59f4f437f1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      title:
-        'People love dogs. You can never go wrong adding a dog to the story.',
+      img: 'https://cdn.pixabay.com/photo/2017/09/25/13/12/puppy-2785074__340.jpg',
+      title: 'puppy pet canine dog',
     },
     {
       id: 24,
-      img: 'https://images.unsplash.com/photo-1616781296073-65d3f087de41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title:
-        'It is amazing how much love and laughter they bring into our lives and even how much closer we become with each other because of them.',
+      img: 'https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888__340.jpg',
+      title: 'tiger swamp big cat',
     },
     {
       id: 25,
-      img: 'https://images.unsplash.com/photo-1600352712371-15fd49ca42b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
-      title: 'Why does watching a dog be a dog fill one with happiness?',
+      img: 'https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519__340.jpg',
+      title: 'african lion wild cat',
     },
   ];
 
@@ -188,7 +171,7 @@ export default function List() {
             <div className="img-container" key={item.id}>
               <img src={item.img} alt="image 1" className="img" />
               <p>
-                {item.id} {item.title}
+                {item.title}
               </p>
             </div>
           );
