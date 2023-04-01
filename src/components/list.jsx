@@ -1,19 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 export default function List() {
-  // const [data, setData] = useState([]);
-  // let getData = async () => {
-  //   let response = await fetch(
-  //     'https://jsonplaceholder.typicode.com/albums/1/photos'
-  //   );
-  //   setData(await response.json());
-  // };
-  // console.log(data)
 
-  // useEffect(() => {
-  //   getData();
-  // }, []);
-
+  const [view, setView] = useState('view');
+  const [text,setText] = useState('List')
+  
   const data = [
     {
       id: 1,
@@ -166,6 +157,28 @@ export default function List() {
       title: 'Ladybugs insects pair',
     },
   ];
+  
+  
+  // const [data, setData] = useState([]);
+  // let getData = async () => {
+  //   let response = await fetch(
+  //     'https://jsonplaceholder.typicode.com/albums/1/photos'
+  //   );
+  //   setData(await response.json());
+  // };
+  // console.log(data)
+
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+  // let btn = document.getElementsByClassName('btn');
+  // console.log(btn);
+  // console.log(btn.innerText);
+
+  function handleClick() {
+    setView(!view);
+  }
+
 
   const [search, setSearch] = useState('');
 
@@ -192,33 +205,44 @@ export default function List() {
             </select>
           </form>
         </div>
-      </div>
-      <div className="grid-img-container">
-        {data
-          .filter(data => data.title.toLowerCase().includes(search))
-          .map(item => {
-            return (
-              <div className="grid-list-container" key={item.id}>
-                <img src={item.img} alt="image 1" className="grid-img" />
-                <p>{item.title}</p>
-              </div>
-            );
-          })}
+        <button className="btn" onClick={handleClick}>
+          {text}
+        </button>
       </div>
 
-      <div className="list-img-container">
-        {data
-          .filter(data => data.title.toLowerCase().includes(search))
-          .map(item => {
-            return (
-              <div className="list-container" key={item.id}>
-                <img src={item.img} alt="image 1" className="list-img" />
+      {view ? (
+        <div className="grid-img-container">
+          {data
+            .filter(data => data.title.toLowerCase().includes(search))
+            .map(item => {
+              return (
+                <div className="grid-list-container" key={item.id}>
+                  <img src={item.img} alt="image 1" className="grid-img" />
+                  <p>{item.title}</p>
+                </div>
+              );
+            })}
+        </div>
+      ) : (
+        <div className="list-img-container">
+          {data
+            .filter(data => data.title.toLowerCase().includes(search))
+            .map(item => {
+              return (
+                <div className="list-container" key={item.id}>
+                  <img src={item.img} alt="image 1" className="list-img" />
                   <h2>{item.title}</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis dolores quia culpa rerum, harum, aliquid magnam perspiciatis sit explicabo repudiandae vero recusandae! Cum, sapiente! In enim dignissimos eum eligendi.</p>
-              </div>
-            );
-          })}
-      </div>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati omnis dolores quia culpa rerum, harum, aliquid
+                    magnam perspiciatis sit explicabo repudiandae vero
+                    recusandae! Cum, sapiente! In enim dignissimos eum eligendi.
+                  </p>
+                </div>
+              );
+            })}
+        </div>
+      )}
     </>
   );
 }
