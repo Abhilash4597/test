@@ -6,7 +6,6 @@ import Footer from './components/footer';
 import data from './components/data';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

@@ -1,3 +1,20 @@
+/* # Reset CSS */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #213547;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
 :root {
   /* --main-color : #e6e6fa;
   --border-color : #b4b4e2;
@@ -7,16 +24,6 @@
   --hover-color: #ad62a8;
 }
 
-* {
-  padding: 0;
-  box-sizing: border-box;
-  max-width: 1440px;
-}
-
-body {
-  text-align: center;
-  margin: 0 auto;
-}
 
 /* # Header component */
 
@@ -35,12 +42,14 @@ body {
   cursor: pointer;
 }
 
+
 /* # Search section */
 
 .search-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -53,14 +62,15 @@ body {
   outline: 0;
 }
 
-.btn{
+.btn {
   background-color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   outline: none;
-  font-weight: 500;
+  cursor: pointer;
+  font-weight: 400;
 }
 
-.btn:hover{
+.btn:hover {
   border: 1px solid var(--main-color);
 }
 
@@ -135,6 +145,7 @@ body {
 .list-container p {
   color: rgb(95, 94, 94);
 }
+
 
 /* # Footer Component */
 
