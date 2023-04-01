@@ -2,9 +2,9 @@
   /* --main-color : #e6e6fa;
   --border-color : #b4b4e2;
   --hover-color : #1f6662; */
-  --main-color : #fae6f6;
-  --border-color : #e2b4d0;
-  --hover-color : #ad62a8;
+  --main-color: #fae6f6;
+  --border-color: #e2b4d0;
+  --hover-color: #ad62a8;
 }
 
 * {
@@ -52,7 +52,7 @@ body {
 /* # Search section */
 
 .search-sort {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   margin-top: 2rem;
   border: 1px solid var(--main-color);
   font-size: 1.2rem;
@@ -73,7 +73,9 @@ body {
 
 /* # list component */
 
-.main-img-container {
+/* # grid */
+
+.grid-img-container {
   margin: 30px 0;
   display: flex;
   justify-content: center;
@@ -82,23 +84,54 @@ body {
   flex-wrap: wrap;
 }
 
-.img-container {
+.grid-list-container {
   width: 30%;
-  /* height: 350px; */
   cursor: pointer;
   border-radius: 20px;
   padding: 1rem;
   outline: 1px solid var(--border-color);
 }
 
-.img-container:hover {
+.grid-list-container:hover {
   box-shadow: 0 0 25px var(--hover-color);
 }
 
-.img {
+.grid-img {
   width: 80%;
   height: 200px;
   margin: 1rem;
+}
+
+/* # List */
+
+.list-img-container {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.list-container {
+  width: 60%;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 1rem;
+  outline: 1px solid var(--border-color);
+}
+
+.list-container:hover {
+  box-shadow: 0 0 25px var(--hover-color);
+}
+
+.list-img {
+  width: 70%;
+  margin: 1rem;
+}
+
+.list-container p {
+  color: rgb(95, 94, 94);
 }
 
 /* # Footer Component */
@@ -121,4 +154,3 @@ body {
   outline: 1px solid var(--border-color);
   border-radius: 5px;
 }
-
