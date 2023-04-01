@@ -60,6 +60,10 @@ body {
   font-weight: 500;
 }
 
+.btn:hover{
+  border: 1px solid var(--main-color);
+}
+
 .search-sort:hover {
   box-shadow: 0 0 20px var(--main-color);
 }
