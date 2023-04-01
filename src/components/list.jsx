@@ -196,7 +196,7 @@ export default function List() {
           <form action="#">
             <label htmlFor="select"></label>
             <select name="Sort" id="select" className="search-sort">
-              <option value="" disabled>
+              <option value="">
                 Select
               </option>
               <option value="Size">Image-Size</option>
