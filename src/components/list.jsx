@@ -217,7 +217,7 @@ export default function List() {
               return (
                 <div className="grid-list-container" key={item.id}>
                   <img src={item.img} alt="image 1" className="grid-img" />
-                  <p>{item.title}</p>
+                  <h2>{item.title}</h2>
                 </div>
               );
             })}
