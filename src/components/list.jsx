@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 
 export default function List() {
 
-  const [view, setView] = useState('view');
-  const [text,setText] = useState('List')
-  
+  const [search, setSearch] = useState('');
+  const [view, setView] = useState(false);
+  const [text, setText] = useState(true);
+
   const data = [
     {
       id: 1,
@@ -157,8 +158,7 @@ export default function List() {
       title: 'Ladybugs insects pair',
     },
   ];
-  
-  
+
   // const [data, setData] = useState([]);
   // let getData = async () => {
   //   let response = await fetch(
@@ -175,12 +175,11 @@ export default function List() {
   // console.log(btn);
   // console.log(btn.innerText);
 
+  // # For changing list to grid and vice versa
   function handleClick() {
     setView(!view);
+    setText(!text);
   }
-
-
-  const [search, setSearch] = useState('');
 
   return (
     <>
@@ -205,8 +204,8 @@ export default function List() {
             </select>
           </form>
         </div>
-        <button className="btn" onClick={handleClick}>
-          {text}
+        <button className="btn search-sort" onClick={handleClick}>
+          {text ? 'Grid' : 'List'}
         </button>
       </div>
 
