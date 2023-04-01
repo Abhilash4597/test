@@ -64,6 +64,10 @@ body {
   border: 1px solid var(--main-color);
 }
 
+.btn:focus {
+  outline: none;
+}
+
 .search-sort:hover {
   box-shadow: 0 0 20px var(--main-color);
 }
