@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Footer from './footer';
 
 export default function List({data}) {
 
   const [search, setSearch] = useState('');
-  const [view, setView] = useState(false);
-  const [text, setText] = useState(true);
+  const [view, setView] = useState(true);
 
   // const [data, setData] = useState([]);
   // let getData = async () => {
@@ -25,7 +25,6 @@ export default function List({data}) {
   // # For changing list to grid and vice versa
   function handleClick() {
     setView(!view);
-    setText(!text);
   }
 
   return (
@@ -43,16 +42,14 @@ export default function List({data}) {
           <form action="#">
             <label htmlFor="select"></label>
             <select name="Sort" id="select" className="search-sort">
-              <option value="">
-                Select
-              </option>
+              <option value="">Select</option>
               <option value="Size">Image-Size</option>
               <option value="Name">Name</option>
             </select>
           </form>
         </div>
         <button className="btn search-sort" onClick={handleClick}>
-          {text ? 'Grid' : 'List'}
+          {view ? 'List' : 'Grid'}
         </button>
       </div>
 
