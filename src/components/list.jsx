@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Footer from './footer';
 
 export default function List({data}) {
 
